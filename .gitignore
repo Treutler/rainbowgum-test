@@ -1,0 +1,13 @@
+# Gradle and IDEA folders
+.idea/
+.gradle/
+build/
+
+# Compiled class file
+*.class
+
+# MacOS metadata files
+.DS_Store
+
+# Package Files #
+*.jar
