@@ -16,6 +16,7 @@ java {
 application {
     mainClass = "com.example.Main"
     applicationDefaultJvmArgs = listOf(
+        "-Dlogging.appender.console.encoder=pattern",
         "-Dlogging.encoder.console.pattern=%d{HH:mm:ss.SSS} - %msg%n"
     )
 }
